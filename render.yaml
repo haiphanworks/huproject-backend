@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: strapi
+    name: huprj
     env: node
     plan: starter
     buildCommand: yarn install && yarn build
@@ -27,5 +27,5 @@ services:
         generateValue: true
 
 databases:
-  - name: strapi
+  - name: huprj
     plan: starter
